@@ -36,8 +36,9 @@ export default function snowStorm(userOptions) {
     freezeOnBlur : true,
     flakeLeftOffset : 0,
     flakeRightOffset : 0,
-    flakeWidth : 8,
-    flakeHeight : 8,
+    flakeWidth : 100%,
+    flakeHeight : 25,
+    background : 'https://vignette.wikia.nocookie.net/youtubepoop/images/0/05/Doge.png/revision/latest?cb=20150131105455',
     vMaxX : 5,
     vMaxY : 4,
     zIndex : 0
@@ -384,6 +385,7 @@ export default function snowStorm(userOptions) {
     this.o.style.overflow = 'hidden';
     this.o.style.fontWeight = 'normal';
     this.o.style.zIndex = storm.zIndex;
+    this.o.style.backgroundImage = 'https://vignette.wikia.nocookie.net/youtubepoop/images/0/05/Doge.png/revision/latest?cb=20150131105455';
     docFrag.appendChild(this.o);
 
     this.refresh = function() {
@@ -509,6 +511,7 @@ export default function snowStorm(userOptions) {
       s.o.style.lineHeight = (storm.flakeHeight+2)+'px';
       s.o.style.textAlign = 'center';
       s.o.style.verticalAlign = 'baseline';
+      s.o.style.background = 'https://vignette.wikia.nocookie.net/youtubepoop/images/0/05/Doge.png/revision/latest?cb=20150131105455';
       s.x = parseInt(rnd(screenX-storm.flakeWidth-20),10);
       s.y = parseInt(rnd(screenY)*-1,10)-storm.flakeHeight;
       s.refresh();
