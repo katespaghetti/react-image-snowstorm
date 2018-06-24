@@ -1,6 +1,6 @@
 Image snow effect component for React. Uses [react-snowstorm](https://github.com/burakcan/react-snowstorm).
 
-**Live Demo :** [http://burakcan.github.io/react-snowstorm](https://katespaghetti.github.io/react-image-snowstorm/)
+**Live Demo :** [https://katespaghetti.github.io/react-image-snowstorm/](https://katespaghetti.github.io/react-image-snowstorm/)
 
 ## Getting Started
 ### Installation
