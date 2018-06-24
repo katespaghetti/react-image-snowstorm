@@ -1,29 +1,24 @@
-# react-snowstorm
-![](https://badge.fury.io/js/react-snowstorm.svg)
-![](https://david-dm.org/burakcan/react-snowstorm.svg)
-![](https://david-dm.org/burakcan/react-snowstorm/dev-status.svg)
+Image snow effect component for React. Uses [react-snowstorm](https://github.com/burakcan/react-snowstorm).
 
-A Snow Effect component for React. Uses [Snowstorm](http://www.schillmania.com/projects/snowstorm/) under the hood.
-
-**Live Demo :** [http://burakcan.github.io/react-snowstorm](http://burakcan.github.io/react-snowstorm)
+**Live Demo :** [http://burakcan.github.io/react-snowstorm](https://katespaghetti.github.io/react-image-snowstorm/)
 
 ## Getting Started
 ### Installation
 
 ```
-$ npm install --save react-snowstorm
+$ npm install --save react-image-snowstorm
 ```
 
 ## Usage
 ```javascript
 import React, { Component } from 'react';
-import SnowStorm from 'react-snowstorm';
+import SnowStorm from 'react-image-snowstorm';
 
 class MyComponent extends Component {
 	render(){
 		return (
 			<div>
-				<SnowStorm />
+				<ImageSnowStorm />
 			</div>
 		)
 	}
@@ -72,7 +67,6 @@ Allow snow to randomly "flicker" in and out of view while falling
 
 * **usePositionFixed** = (default = false)
 true = snow not affected by window scroll. may increase CPU load, disabled by default - if enabled, used only where supported.
-
 
 * **vMaxY** = (default = 5) and **vMaxX** = (default = 8)
 Defines maximum X and Y velocities for the storm; a random value in this range is selected for each snowflake.
